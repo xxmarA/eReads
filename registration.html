@@ -1,85 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./registration.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./registration.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <title>eREads Registration</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="header">
-          <div class="header-left">
-            <img src="eReads images/eREADSlogo.png" alt="" />
+      <div class="header">
+        <div class="header-left">
+          <img src="eReads images/eREADSlogo.png" alt="" />
+        </div>
+        <div class="header-links">
+          <a href="">HOME</a>
+          <a href="">ABOUT</a>
+          <a href="">REGISTRATION</a>
+          <a href="">E-BOOKS</a>
+        </div>
+
+        <div class="header-right">
+          <div class="search-icon">
+            <form class="example">
+              <button id="btn-search" type="submit">
+                <img id="search" src="./eReads images/search.png" alt="" />
+              </button>
+              <input
+                type="text"
+                id="Search"
+                name="Search"
+                placeholder="SEARCH e-BOOKS"
+              />
+            </form>
           </div>
-          <div class="header-links">
-            <a href="">HOME</a>
-            <a href="">ABOUT</a>
-            <a href="">REGISTRATION</a>
-            <a href="">E-BOOKS</a>
-          </div>
-  
-          <div class="header-right">
-            <div class="search-icon">
-              <form class="example">
-                <button id="btn-search" type="submit">
-                  <img id="search" src="./eReads images/search.png" alt="" />
-                </button>
-                <input
-                  type="text"
-                  id="Search"
-                  name="Search"
-                  placeholder="SEARCH e-BOOKS"
-                />
-              </form>
-            </div>
-            <div class="profile-img">
-              <img src="eReads images/profileIcon.png" alt="" />
-            </div>
+          <div class="profile-img">
+            <img src="eReads images/profileIcon.png" alt="" />
           </div>
         </div>
       </div>
+    </div>
 
-        <div class="content">
-            <div class="section1">
-                <h1>Welcome to eReads</h1>
-                <h3>Sign up</h3>
-                <form-2> 
-                    <div class="form-control">
-                        <label for="email">What's your email? </label>
-                        <input type="text" id="Search" name="Search" placeholder="Email address">
-                    </div>
-                    <div class="form-control">
-                        <label for="password"> Create a password </label>
-                        <input type="text" id="Search" name="Search" placeholder="Enter password">
-                    </div>
-                    <div class="form-control">
-                        <label for="email"> Confirm your password </label>
-                        <input type="text" id="Search" name="Search" placeholder="Enter password again">
-                    </div>
-                    <div class="form-control">
-                        <label for="email">What should we call you?</label>
-                        <input type="text" id="Search" name="Search" placeholder="Enter your profile name">
-                    </div>
-                        </form-2>
-                        <p>this name will appear on your profile</p>
-                        <p class="terms">By clicking "Let's get started" you are agreeing to our <a href=""> Terms and Conditions</a>.</p>
-                        <button>Create Profile</button>
-            </div>
-            <div class="content-img">
-                <img src="eReads images/RedMugIpadImage.png" alt="">
-            </div>
-        </div>
+    <div class="content">
+      <div class="section1">
+        <h1>Welcome to eReads</h1>
+        <h3>Sign up</h3>
+        <form-2>
+          <div class="form-control">
+            <label for="email">What's your email? </label>
+            <input
+              type="text"
+              id="Search"
+              name="Search"
+              placeholder="Email address"
+            />
+          </div>
+          <div class="form-control">
+            <label for="password"> Create a password </label>
+            <input
+              type="text"
+              id="Search"
+              name="Search"
+              placeholder="Enter password"
+            />
+          </div>
+          <div class="form-control">
+            <label for="email"> Confirm your password </label>
+            <input
+              type="text"
+              id="Search"
+              name="Search"
+              placeholder="Enter password again"
+            />
+          </div>
+          <div class="form-control">
+            <label for="email">What should we call you?</label>
+            <input
+              type="text"
+              id="Search"
+              name="Search"
+              placeholder="Enter your profile name"
+            />
+          </div>
+        </form-2>
+        <p>this name will appear on your profile</p>
+        <p class="terms">
+          By clicking "Let's get started" you are agreeing to our
+          <a href=""> Terms and Conditions</a>.
+        </p>
+        <button>Create Profile</button>
+      </div>
+      <div class="content-img">
+        <img src="eReads images/RedMugIpadImage.png" alt="" />
+      </div>
+    </div>
+  </body>
 
-</body>
-
-<footer>
-    <p>
-        Privacy | Copyright | Terms of Use & Licences | Authors | Publishers
-    </p>
-</footer>
+  <footer>
+    <p>Privacy | Copyright | Terms of Use & Licences | Authors | Publishers</p>
+  </footer>
 </html>

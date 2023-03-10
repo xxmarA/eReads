@@ -6,7 +6,7 @@
 }
 
 .container {
-  width: 1440px;
+  max-width: 1440px;
   padding: 25px;
   align-items: center;
   background-color: rgb(58, 57, 57);
@@ -60,8 +60,8 @@ form img {
   border: none;
   padding: 9px 0 9px 12px;
 }
-.profile-img img{
-    padding: 8px 30px 8px 0;
+.profile-img img {
+  padding: 8px 30px 8px 0;
 }
 .search-icon input#Search {
   background: #efefef;
@@ -72,23 +72,22 @@ form img {
 
 .header-body {
   height: 483px;
-  width: 1440px;
+  max-width: 1440px;
 }
 
-.wrapper{
-    width: 1440px;
-    height: 900px;
-    display: flex;
-    justify-content: space-between;
+.wrapper {
+  max-width: 1440px;
+  height: 900px;
+  display: flex;
+  justify-content: space-between;
 }
-.left-wrapper{
-    width: 25%;
-   
+.left-wrapper {
+  width: 25%;
 }
-.right-wrapper{
-    width: 70%;
-    height: 100%;
-    border: 1px solid blue;
+.right-wrapper {
+  width: 70%;
+  height: 100%;
+  border: 1px solid blue;
 }
 
 .left-wrapper {
@@ -115,22 +114,21 @@ hr {
   border-color: black;
   margin: 10px 0 10px 0;
 }
-.right-wrapper h1{
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 48px;
-line-height: 58px;
-padding-top: 32px;
-color: #036DE9;
-
+.right-wrapper h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  padding-top: 32px;
+  color: #036de9;
 }
-.right-wrapper h6{
+.right-wrapper h6 {
   font-size: 32px;
 }
-.book-grid{
+.book-grid {
   display: flex;
- justify-content: space-between;
+  justify-content: space-between;
 }
 
 .book-img img {
@@ -138,30 +136,29 @@ color: #036DE9;
   height: 250px;
   margin-left: 50px;
 }
-.info-grid{
+.info-grid {
   max-width: 648px;
 }
 
 .right-wrapper .lead {
- margin-top: 29px;
- padding-top: 14px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 29px;
+  margin-top: 29px;
+  padding-top: 14px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
 }
-.right-wrapper .lead{
- display: flex;
- border-top: 1px solid #000000;
- 
+.right-wrapper .lead {
+  display: flex;
+  border-top: 1px solid #000000;
 }
 
-.right-wrapper .stars img{
-    width: 45px;
-    height: 43px;
+.right-wrapper .stars img {
+  width: 45px;
+  height: 43px;
 }
-.right-wrapper .stars{
+.right-wrapper .stars {
   display: flex;
   padding-top: 15px;
 }
@@ -190,42 +187,42 @@ line-height: 29px;
   color: white;
   font-size: 20px;
 }
-.review-b img{
+.review-b img {
   width: 96px;
   height: 91px;
 }
 
-.review-k img{
+.review-k img {
   width: 96px;
   height: 91px;
 }
 
-.review-lead{
+.review-lead {
   font-size: 24px;
   padding-top: 50px;
 }
-.review-lead h4{
+.review-lead h4 {
   padding-left: 100px;
 }
-.review-stars{
-margin-top: -87px;
-  padding-left:100px;
+.review-stars {
+  margin-top: -87px;
+  padding-left: 100px;
 }
-.review-stars h5{
+.review-stars h5 {
   font-size: 24px;
-line-height: 29px;
-padding-bottom: 30px;
+  line-height: 29px;
+  padding-bottom: 30px;
 }
-.review-stars img{
+.review-stars img {
   width: 45px;
-  height: 45px; 
+  height: 45px;
 }
 
-.review-text{
-  
+.review-text {
   font-size: 24px;
-line-height: 29px;
+  line-height: 29px;
 }
+
 footer {
   text-align: center;
   padding-top: 600px;
@@ -233,7 +230,7 @@ footer {
 }
 
 footer p {
-  width: 1440px;
+  max-width: 1440px;
   font-weight: 400;
   font-size: 18px;
   font-family: "Inter";

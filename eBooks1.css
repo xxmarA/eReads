@@ -6,7 +6,7 @@
   }
   
   .container {
-    width: 1440px;
+    max-width: 1440px;
     padding: 25px;
     align-items: center;
     background-color: rgb(58, 57, 57);
@@ -92,7 +92,7 @@
   justify-content: space-evenly;
   background-color: black;
   color: #036de9;
-  width: 1440px;
+  max-width: 1440px;
   height: 215px;
   margin-top: -10px;
 }
@@ -113,7 +113,7 @@
 }
 
 .wrapper {
-  width: 1440px;
+  max-width: 1440px;
   height: 900px;
   display: flex;
   justify-content: space-between;
@@ -288,7 +288,7 @@ footer {
 }
 
 footer p {
-  width: 1440px;
+ max-width: 1440px;
   font-weight: 400;
   font-size: 18px;
   font-family: "Inter";

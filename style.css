@@ -6,7 +6,7 @@
 }
 
 .container {
-    width: 1440px;
+  max-width: 1440px;
   padding: 25px;
   align-items: center;
   background-color: rgb(58, 57, 57);
@@ -60,8 +60,8 @@ form img {
   border: none;
   padding: 9px 0 9px 12px;
 }
-.profile-img img{
-    padding: 8px 30px 8px 0;
+.profile-img img {
+  padding: 8px 30px 8px 0;
 }
 .search-icon input#Search {
   background: #efefef;
@@ -72,7 +72,7 @@ form img {
 
 .header-body {
   height: 483px;
-  width: 1440px;
+  max-width: 1440px;
 }
 
 .section-1 {
@@ -82,11 +82,10 @@ form img {
   background: #d9d9d9;
   border-radius: 0px;
   padding-top: 50px;
- 
 }
 
 .section-1 {
-  width: 1440px;
+  max-width: 1440px;
   height: 400px;
 }
 .content {
@@ -109,7 +108,7 @@ form img {
   font-family: "Inter";
   font-weight: 500;
   font-size: 20px;
-  width: 695px;
+  max-width: 695px;
   height: 104px;
   text-align: center;
   font-size: 20px;
@@ -134,7 +133,7 @@ footer p {
   text-align: center;
   padding-top: 45px;
   background: #d9d9d9;
-  width: 1440px;
+  max-width: 1440px;
   font-weight: 400;
   font-size: 18px;
   font-family: "Inter";
